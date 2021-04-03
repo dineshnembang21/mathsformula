@@ -18,8 +18,9 @@ public class index extends AppCompatActivity {
 
         btn_algebra.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent i=new Intent(index.this,algebra.class);
+                startActivity(i);
             }
         });
     }
